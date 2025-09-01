@@ -11,10 +11,10 @@ E-commerce Sales &amp; Customer Insights Dashboard – SQL-based project analyzi
 
 ### High-Spending Customers & Regions
 
-The  INNER JOIN.sql query linked orders with customers and sales reps, enabling identification of top-spending customers and which sales reps/regions manage them.
-Insight: The East Region consistently handles higher-value customers — pointing to strong customer relationships or regional purchasing power.
+* The  INNER JOIN.sql query linked orders with customers and sales reps, enabling identification of top-spending customers and which sales reps/regions manage them.
+*Insight: The East Region consistently handles higher-value customers — pointing to strong customer relationships or regional purchasing power.
 
 ### Customer Category Based on their Purchasing Power (Customer Segmentation)
  
- I grouped customers into different categories to differentiate between the High Value Customers, the Medium Value  Customers and the Low Value Customers for the company to carry out various discount plans and subscription plans  for customers. I noticed we had more high value customers at our company.
+* I grouped customers into different categories to differentiate between the High Value Customers, the Medium Value  Customers and the Low Value Customers for the company to carry out various discount plans and subscription plans  for customers. I noticed we had more high value customers at our company.
  
