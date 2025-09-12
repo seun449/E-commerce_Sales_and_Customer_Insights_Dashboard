@@ -1,25 +1,44 @@
 # E-commerce_Sales_and_Customer_Insights_Dashboard
-SQL-based project analyzing e-commerce sales and customer data to uncover actionable insights. The analysis identifies top-selling product categories, high-spending customers and regions, and segments customers by purchasing power (High, Medium, and Low Value).
+SQL-based project analyzing e-commerce sales and customer data to uncover actionable insights. The analysis identifies top-selling product categories, high-spending customers and regions, and segments customers by purchasing power (High, Medium, and Low Value).
 
-Project Questions:
+## What was the Scenario of the project?
+I have been hired as a Data Analyst for MegaMart Online, a global e-commerce platform. My task was to analyze customer behavior, sales trends, and product performance to provide actionable insights for the marketing and operations teams. 
+
+## About the  dataset:
+* customers — Information about registered customers. 
+* orders — Records of orders placed. 
+* products — Information about the items sold. 
+* sales_reps — List of sales representatives managing certain customers
+
+## Project Questions:
 * Which product categories generate the most revenue?
 * Who are the highest-spending customers and which regions manage them?
-* How can customers be segmented based on purchasing power?
+* How can customers be segmented based on purchasing power?
 
 ## Project Questions and Insights
 
-### Which product categories generate the most revenue?
+### 1. Top-Selling Categories
 
-* From the insight Accessories  and Clothing are highlighted as key categories due to the large amount of revenue generated from there.
-* Accessories products dominate in sales volume (higher quantities ordered), making it the strongest revenue driver.
-* Clothing and Sports products also contributed significantly.
+Analysis shows that Accessories and Clothing stand out as the key categories due to the large amount of revenue generated.
+* Accessories dominate in terms of sales volume, making them the strongest revenue driver.
+* Clothing and Sports products also contributed significantly, reinforcing their importance in overall sales performance.
+  
+### 2. Using INNER JOIN to Find Top-Grossing Products
 
-### Who are the highest-spending customers and which regions manage them?
+I applied an INNER JOIN to connect the products table with orders, customers, and sales_reps. 
+* This allowed me to not only identify the highest-grossing products but also see which customers purchased them and which sales reps managed those customers, giving a complete view of product performance and customer reach.
+  
+### 3. High-Spending Customers & Regions
 
-* The  INNER JOIN.sql query linked orders with customers and sales reps, enabling identification of top-spending customers and which sales reps/regions manage them.
-* Insight: The East Region consistently handles higher-value customers — pointing to strong customer relationships or regional purchasing power.
+Using the CASE STATEMENT, I was able to identify the top-spending customers and the regions that manage them.
+* Insight: The East Region consistently handles higher-value customers according to the top 5 high value customers in our company, suggesting either stronger customer relationships or greater purchasing power in that region.
 
-### How can customers be segmented based on purchasing power?
+### Customer Segmentation (Based on Purchasing Power)
+  
+I categorized customers into three groups, which are the High Value, Medium Value, and Low Value,  based on their total spending.
+* This segmentation allows the company to design targeted strategies such as discounts, loyalty rewards, or subscription plans for different customer groups.
+* Notably, the analysis revealed that the company has a relatively large proportion of high-value customers, which is a strong indicator of customer loyalty and spending potential.
+
+
  
-* I grouped customers into different categories to differentiate between the High Value Customers, the Medium Value  Customers and the Low Value Customers for the company to carry out various discount plans and subscription plans  for customers. I noticed we had more high value customers at our company.
- 
+* I grouped customers into different categories to differentiate
