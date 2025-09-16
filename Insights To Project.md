@@ -9,11 +9,11 @@ Analysis shows that  Accessories  and  Clothing  stand  out as the key categorie
 I applied an INNER JOIN to connect the  products  table  with  orders  ,  customers  , and sales_reps  . 
 * This allowed me to not only identify the  highest-grossing  products  but also see  which customers purchased them  and  which sales reps managed  those customers  , giving a complete view of product performance and customer reach. 
 
-###High-Spending Customers & Regions 
+### High-Spending Customers & Regions 
 Using the CASE STATEMENT, I was able to identify the  top-spending customers  and the  regions  that manage them. 
 * Insight: The  East Region  consistently handles higher-value  customers according to the top 5 high value customers in our company, suggesting either stronger customer relationships or greater purchasing power in that region. 
 
-###Customer Segmentation (Based on Purchasing Power) 
+### Customer Segmentation (Based on Purchasing Power) 
 I categorized customers into three groups, which are the  High Value  ,  Medium Value  , and  Low Value  , based on their total spending. 
 *  This segmentation allows the company to design targeted strategies such as  discounts, loyalty rewards, or subscription plans  for different customer  groups. 
 *  Notably, the analysis revealed that the company has a relatively  large proportion of high-value customers  , which is a strong indicator of customer  loyalty and spending potential. 
