@@ -1,0 +1,48 @@
+#INSIGHTS FROM MY PROJECT ANALYSIS 
+
+### Top-Selling Categories 
+Analysis shows that  Accessories  and  Clothing  stand  out as the key categories due to the large amount of revenue generated. 
+*  Accessories  dominate in terms of sales volume, making  them the strongest revenue driver. 
+* Clothing  and  Sports  products also contributed significantly,  reinforcing their importance in overall sales performance. 
+
+### Using INNER JOIN to Find Top-Grossing Products 
+I applied an INNER JOIN to connect the  products  table  with  orders  ,  customers  , and sales_reps  . 
+* This allowed me to not only identify the  highest-grossing  products  but also see  which customers purchased them  and  which sales reps managed  those customers  , giving a complete view of product performance and customer reach. 
+
+###High-Spending Customers & Regions 
+Using the CASE STATEMENT, I was able to identify the  top-spending customers  and the  regions  that manage them. 
+* Insight: The  East Region  consistently handles higher-value  customers according to the top 5 high value customers in our company, suggesting either stronger customer relationships or greater purchasing power in that region. 
+
+###Customer Segmentation (Based on Purchasing Power) 
+I categorized customers into three groups, which are the  High Value  ,  Medium Value  , and  Low Value  , based on their total spending. 
+*  This segmentation allows the company to design targeted strategies such as  discounts, loyalty rewards, or subscription plans  for different customer  groups. 
+*  Notably, the analysis revealed that the company has a relatively  large proportion of high-value customers  , which is a strong indicator of customer  loyalty and spending potential. 
+
+## IDEAS AND RECOMMENDATIONS FOR MORE SALES IMPROVEMENT 
+
+### 1. Double Down on Accessories & Clothing (Category Focus)
+Since  Accessories  dominate in sales volume and  Clothing  contributes significantly to revenue, the company should: 
+*  Expand product variety in these categories. 
+*  Offer bundled deals (e.g.,  “Buy Clothing + Accessory  and get 10% off”  ). 
+*  Run targeted marketing campaigns highlighting best-sellers in these categories. 
+Benefit:  Boosts sales in the strongest-performing  categories while encouraging cross-sells. 
+
+### 2. Target High-Value Customers with Loyalty Programs 
+The analysis showed a  large proportion of high-value  customers  . To retain and grow this segment: 
+*  Introduce  exclusive loyalty rewards  (points, VIP discounts,  early access to new products). 
+*  Personalized offers via email or app notifications. 
+Benefit:  Keeps big spenders engaged, increases repeat  purchases, and reduces churn. 
+
+### 3. Strengthen Sales Strategy in the East Region 
+The  East Region  consistently manages higher-value  customers, signaling strong purchasing power. The 
+company should: 
+*  Increase inventory allocation in this region. 
+*  Invest in  regional promotions  (ads, influencer marketing,  or local partnerships). 
+*  Equip sales reps with additional support or incentives to grow accounts further. Benefit:  Maximizes revenue in a proven high-potential  region. 
+
+### 4. Re-Engage Low & Medium Value Customers 
+Customer segmentation revealed that not all customers spend at the same level. To improve sales: 
+*  Offer  discount vouchers  or “first repeat order” incentives  for low-value customers. 
+*  Upsell to medium-value customers with subscription plans (e.g.,  “Subscribe & Save”  offers). 
+*  Use remarketing ads to bring back inactive customers. 
+Benefit:  Expands overall customer lifetime value by  moving more customers into the medium/high-value brackets.
